@@ -2,47 +2,6 @@
 
 Laravel application for tracking daily activities of an applications support team.
 
-## Installation
-
-### Prerequisites
-- PHP 8.1 or higher
-- Composer
-- SQLite (included with PHP)
-
-### Setup Steps
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/activity-tracker.git
-   cd activity-tracker
-   ```
-
-2. Install dependencies
-   ```bash
-   composer install
-   ```
-
-3. Configure environment
-   ```bash
-   cp .env.example .env
-   php artisan key:generate
-   ```
-
-4. Setup database
-   ```bash
-   touch database/database.sqlite
-   php artisan migrate
-   ```
-
-5. Start the server
-   ```bash
-   php artisan serve
-   ```
-
-6. Access the application
-   - Open browser: `http://localhost:8000`
-   - Register a new user account
-   - Start using the application
 
 ## Features
 
@@ -69,7 +28,3 @@ Laravel application for tracking daily activities of an applications support tea
 - SQLite Database
 - Blade Templates
 - Tailwind CSS
-
-## Deployment
-
-For deployment instructions, see `STEP_BY_STEP_DEPLOYMENT.md`
